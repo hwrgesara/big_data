@@ -1,4 +1,4 @@
-class Node:
+﻿class Node:
     def __init__(self, data=None):
         self.data = data
         self.left = None
@@ -61,5 +61,5 @@ print(tree.find(8))
 print(tree.find(9))
 
 
-#Why is the worst case time complexity of the find method only  ??(??)  and not  ??(????????) ?
+#Why is the worst case time complexity of the find method only  𝑂(𝑛)  and not  𝑂(𝑙𝑜𝑔𝑛) ?
 #It is O(n) because in the worst case scenario we have to traverse all elements (n nodes)
